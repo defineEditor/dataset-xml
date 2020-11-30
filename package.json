@@ -1,0 +1,44 @@
+{
+  "name": "dataset-xml",
+  "version": "0.0.1",
+  "description": "Dataset-XML parser",
+  "main": "dist/src/main.js",
+  "scripts": {
+    "test": "jest -c jest.config.js --coverage --verbose",
+    "build": "tsc",
+    "release": "npm run docs && npm run build && npm publish",
+    "upgrade-interactive": "npm-check --update"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cdisc",
+    "dataset-xml",
+    "odm-xml"
+  ],
+  "author": "Dmitry Kolosov",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/node": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-standard-with-typescript": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*",
+    "jest": "*",
+    "jest-watch-typeahead": "*",
+    "npm-check": "*",
+    "ts-jest": "*",
+    "typedoc": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "xml-flow": "^1.0.4"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "outDir": "dist",
+        "allowJs": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "target": "ES2018"
+    },
+    "include": [
+        "src/*",
+        "test/tests/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

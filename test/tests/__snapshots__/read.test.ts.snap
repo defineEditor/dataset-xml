@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read file Read dataset with ClinicalData 1`] = `
+Object {
+  "ItemGroupData": Object {
+    "CO": Object {
+      "ItemData": Array [
+        Array [
+          "CDISCPILOT01",
+          "CO",
+          "AE",
+          "01-701-1023",
+          "1",
+          "AESEQ",
+          "2",
+          undefined,
+          "related to record 1 in domain DS",
+          "PRINCIPAL INVESTIGATOR",
+        ],
+        Array [
+          "CDISCPILOT01",
+          "CO",
+          "AE",
+          "01-701-1047",
+          "2",
+          "AESEQ",
+          "4",
+          undefined,
+          "related to record 1 in domain DS. The quick brown fox jumps over the lazy dog and can easily have more than twohundred characters which was the upper limit that SAS Transport 5 could be dealing with. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+          "PRINCIPAL INVESTIGATOR",
+        ],
+      ],
+      "ItemDataOID": Array [
+        "CO.STUDYID",
+        "CO.DOMAIN",
+        "CO.RDOMAIN",
+        "CO.USUBJID",
+        "CO.COSEQ",
+        "CO.IDVAR",
+        "CO.IDVARVAL",
+        "CO.COREF",
+        "CO.COVAL",
+        "CO.COEVAL",
+      ],
+    },
+  },
+  "MetaDataVersionOID": "CDISC.SDTM.3.1.0",
+  "StudyOID": "LZZT",
+}
+`;
+
+exports[`Read file Read dataset with ReferenceData 1`] = `
+Object {
+  "ItemGroupData": Object {
+    "TV": Object {
+      "ItemData": Array [
+        Array [
+          "CDISCPILOT01",
+          "TV",
+          "1",
+          "SCREENING 1",
+          "-7",
+          "Start of Screen Epoch",
+          "completion of screening activities",
+        ],
+        Array [
+          "CDISCPILOT01",
+          "TV",
+          "2",
+          "SCREENING 2",
+          "-1",
+          "Start of Visitnum 3 - 24H",
+          "subject leaves clinic after connection of ambulatory ECG machine",
+        ],
+        Array [
+          "CDISCPILOT01",
+          "TV",
+          "3",
+          "BASELINE",
+          "1",
+          "(Just Before) Start of Treatment Epoch",
+          "After application of first dose",
+        ],
+      ],
+      "ItemDataOID": Array [
+        "TV.STUDYID",
+        "TV.DOMAIN",
+        "TV.VISITNUM",
+        "TV.VISIT",
+        "TV.VISITDY",
+        "TV.TVSTRL",
+        "TV.TVENRL",
+      ],
+    },
+  },
+  "MetaDataVersionOID": "CDISC.SDTM.3.1.0",
+  "StudyOID": "LZZT",
+}
+`;
