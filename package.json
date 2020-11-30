@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/defineEditor/dataset-xml.git"
+    "url": "git+https://github.com/defineEditor/dataset-xml.git"
   },
   "keywords": [
     "cdisc",
@@ -40,5 +40,12 @@
   },
   "dependencies": {
     "xml-flow": "^1.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/defineEditor/dataset-xml/issues"
+  },
+  "homepage": "https://github.com/defineEditor/dataset-xml#readme",
+  "directories": {
+    "test": "test"
   }
 }
