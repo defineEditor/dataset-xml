@@ -1,6 +1,6 @@
 {
   "name": "dataset-xml",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Read Dataset-XML format in JavaScript",
   "main": "dist/src/main.js",
   "scripts": {
