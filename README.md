@@ -9,7 +9,6 @@ npm install dataset-xml
 # Usage
 Read full contents of a Dataset-XML file
 ```
-import fs from 'fs';
 import { read } from 'dataset-xml';
 
 let result = await read(pathToFile);
