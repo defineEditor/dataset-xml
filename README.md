@@ -1,6 +1,6 @@
 dataset-xml
 ===========
-Read Dataset-XML into a JS object
+Read Dataset-XML file format in JavaScript
 # Installation
 To add dataset-xml to your project, run
 ```

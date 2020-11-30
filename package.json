@@ -1,7 +1,7 @@
 {
   "name": "dataset-xml",
   "version": "0.0.1",
-  "description": "Dataset-XML parser",
+  "description": "Read Dataset-XML format in JavaScript",
   "main": "dist/src/main.js",
   "scripts": {
     "test": "jest -c jest.config.js --coverage --verbose",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/defineEditor/dataset-xml.git"
   },
   "keywords": [
     "cdisc",
