@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM xmlns:data="http://www.cdisc.org/ns/Dataset-XML/v1.0"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     data:DatasetXMLVersion="1.0.0"
+     ODMVersion="1.3.2"
+     FileType="Snapshot"
+     FileOID="SDTM-XML"
+     CreationDateTime="2012-12-08T23:06:03.046+01:00">
+   <ClinicalData StudyOID="LZZT" MetaDataVersionOID="CDISC.SDTM.3.1.0">
+      <ItemGroupData data:ItemGroupDataSeq="1" ItemGroupOID="CO">
+         <ItemData ItemOID="CO.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="CO.DOMAIN" Value="CO"/>
+         <ItemData ItemOID="CO.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="CO.USUBJID" Value="01-701-1023"/>
+         <ItemData ItemOID="CO.COSEQ" Value="1"/>
+         <ItemData ItemOID="CO.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="CO.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="CO.COREF" IsNull="Yes"/>
+         <ItemData ItemOID="CO.COVAL" Value="related to record 1 in domain DS"/>
+         <ItemData ItemOID="CO.COEVAL" Value="PRINCIPAL INVESTIGATOR"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="2" ItemGroupOID="CO">
+         <ItemData ItemOID="CO.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="CO.DOMAIN" Value="CO"/>
+         <ItemData ItemOID="CO.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="CO.USUBJID" Value="01-701-1047"/>
+         <ItemData ItemOID="CO.COSEQ" Value="2"/>
+         <ItemData ItemOID="CO.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="CO.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="CO.COREF" IsNull="Yes"/>
+         <ItemData ItemOID="CO.COVAL"
+                   Value="related to record 1 in domain DS. The quick brown fox jumps over the lazy dog and can easily have more than twohundred characters which was the upper limit that SAS Transport 5 could be dealing with. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+         <ItemData ItemOID="CO.COEVAL" Value="PRINCIPAL INVESTIGATOR"/>
+      </ItemGroupData>
+   </ClinicalData>
+</ODM>

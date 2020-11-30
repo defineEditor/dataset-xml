@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM xmlns:data="http://www.cdisc.org/ns/Dataset-XML/v1.0"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     data:DatasetXMLVersion="1.0.0"
+     ODMVersion="1.3.2"
+     FileType="Snapshot"
+     FileOID="SDTM-XML"
+     CreationDateTime="2012-12-08T23:06:03.046+01:00">
+   <ReferenceData StudyOID="LZZT" MetaDataVersionOID="CDISC.SDTM.3.1.0">
+      <ItemGroupData data:ItemGroupDataSeq="1" ItemGroupOID="TV">
+         <ItemData ItemOID="TV.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TV.DOMAIN" Value="TV"/>
+         <ItemData ItemOID="TV.VISITNUM" Value="1"/>
+         <ItemData ItemOID="TV.VISIT" Value="SCREENING 1"/>
+         <ItemData ItemOID="TV.VISITDY" Value="-7"/>
+         <ItemData ItemOID="TV.TVSTRL" Value="Start of Screen Epoch"/>
+         <ItemData ItemOID="TV.TVENRL" Value="completion of screening activities"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="2" ItemGroupOID="TV">
+         <ItemData ItemOID="TV.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TV.DOMAIN" Value="TV"/>
+         <ItemData ItemOID="TV.VISITNUM" Value="2"/>
+         <ItemData ItemOID="TV.VISIT" Value="SCREENING 2"/>
+         <ItemData ItemOID="TV.VISITDY" Value="-1"/>
+         <ItemData ItemOID="TV.TVSTRL" Value="Start of Visitnum 3 - 24H"/>
+         <ItemData ItemOID="TV.TVENRL"
+                   Value="subject leaves clinic after connection of ambulatory ECG machine"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="3" ItemGroupOID="TV">
+         <ItemData ItemOID="TV.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TV.DOMAIN" Value="TV"/>
+         <ItemData ItemOID="TV.VISITNUM" Value="3"/>
+         <ItemData ItemOID="TV.VISIT" Value="BASELINE"/>
+         <ItemData ItemOID="TV.VISITDY" Value="1"/>
+         <ItemData ItemOID="TV.TVSTRL" Value="(Just Before) Start of Treatment Epoch"/>
+         <ItemData ItemOID="TV.TVENRL" Value="After application of first dose"/>
+      </ItemGroupData>
+   </ReferenceData>
+</ODM>
