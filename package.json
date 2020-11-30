@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest -c jest.config.js --coverage --verbose",
     "build": "tsc",
-    "release": "npm run docs && npm run build && npm publish",
+    "release": "npm run build && npm publish",
     "upgrade-interactive": "npm-check --update"
   },
   "repository": {
